@@ -1,8 +1,21 @@
 {
     "culture": "zh-Hans",
-    "texts": {
-      "Menu:Home": "首页",
-      "Welcome": "欢迎",
-      "LongWelcomeMessage": "欢迎来到该应用程序. 这是一个基于ABP框架的启动项目. 有关更多信息, 请访问 abp.io."
-    }
+  "texts": {
+    "Menu:Home": "首页",
+    "Welcome": "欢迎",
+    "LongWelcomeMessage": "欢迎来到该应用程序. 这是一个基于ABP框架的启动项目. 有关更多信息, 请访问 abp.io.",
+
+    //添加本地化：
+    "Menu:BookStore": "在线书城",
+    "Menu:Book": "书籍",
+    "Actions": "Actions",
+    "Edit": "Edit",
+    "PublishDate": "Publish date",
+    "NewBook": "New book",
+    "Name": "Name",
+    "Type": "Type",
+    "Price": "Price",
+    "CreationTime": "Creation time",
+    "AreYouSureToDelete": "Are you sure you want to delete this item?"
+  }
   }
