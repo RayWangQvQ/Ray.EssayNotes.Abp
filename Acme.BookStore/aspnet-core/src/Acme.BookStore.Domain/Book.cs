@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using Volo.Abp.Domain.Entities.Auditing;
 
 namespace Acme.BookStore
 {
-    public class Book : AuditedAggregateRoot<Guid>
+    public class Book : FullAuditedAggregateRoot<Guid>
     {
         public string Name { get; set; }
 

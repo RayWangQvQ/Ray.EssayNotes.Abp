@@ -5,7 +5,7 @@ using Volo.Abp.Application.Dtos;
 
 namespace Acme.BookStore
 {
-    public class BookDto : AuditedEntityDto<Guid>
+    public class BookDto : FullAuditedEntityDto<Guid>
     {
         public string Name { get; set; }
 
